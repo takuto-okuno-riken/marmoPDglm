@@ -1,7 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
 
-# GLM analysis for PD vs. WT marmoset
-GLM analysis for PD vs. WT marmoset scripts on MATLAB
+# GLM analysis scripts for PD vs. WT marmoset
+GLM analysis scripts for PD vs. WT marmoset on MATLAB
 
 ## Requirements: Software
 * MATLAB R2019b or later
@@ -10,7 +10,7 @@ GLM analysis for PD vs. WT marmoset scripts on MATLAB
 
 
 ## Installation
-1. Download this Toolbox zip file.
+1. Download this scripts zip file.
 2. Extract zip files under your working directory <work_path>.
 3. Run the MATLAB software, and "Add Path" extracted directories (i.e. <work_path>/marmoPDglm-master).
 4. Move to <work_path>/marmoPDglm-master directory and run the following demos.
