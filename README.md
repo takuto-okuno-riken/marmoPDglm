@@ -10,8 +10,8 @@ GLM analysis scripts for PD vs. WT marmoset on MATLAB
 
 
 ## Installation
-1. Download this scripts zip file.
-2. Extract zip files under your working directory <work_path>.
+1. Download this toolbox zip file.
+2. Extract zip file under your working directory <work_path>.
 3. Run the MATLAB software, and "Add Path" extracted directories (i.e. <work_path>/marmoPDglm-master).
 4. Move to <work_path>/marmoPDglm-master directory and run the following demos.
 
