@@ -1,7 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
 
-# GLM analysis of PD vs. WT marmoset
-GLM analysis of PD vs. WT marmoset scripts for MATLAB
+# GLM analysis for PD vs. WT marmoset
+GLM analysis for PD vs. WT marmoset scripts on MATLAB
 
 ## Requirements: Software
 * MATLAB R2019b or later
@@ -17,7 +17,7 @@ GLM analysis of PD vs. WT marmoset scripts for MATLAB
 
 ## Command Line Tools Demos
 <b>Demo</b><br>
-This demo shows GLM analysis of PD vs. WT marmoset.<br>
+This demo shows GLM analysis for PD vs. WT marmoset.<br>
 (Copy and paste this command line. Demo data is included in this toolbox.)
 ~~~
 >> testGLM6marmoPD
@@ -33,9 +33,9 @@ Expected cluster list (num=6), degree of freedom=46, FWHM={5.3689 5.9061 3.5099}
 6) k=1577 voxels, P uncorr=1.6107e-21, P fwe-corr=0
 Tmax of glm6marmoPD 2nd-mix-Tukey8full : PD tmax=5.7826, tcnt=619
 ~~~
-This demo plots functional flat mapping of the human DMN:
+This demo plots GLM contrast results of PD vs. WT marmoset:
 <div align="center">
-<img src="data/demo1.jpg" height="480">
+<img src="data/demo1.jpg" height="320">
 </div>
 
 
