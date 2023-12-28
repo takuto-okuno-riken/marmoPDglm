@@ -1,7 +1,7 @@
 % GLM with Control vs. PD marmoset
 % multi-subject with Tukey-Taper.
 function testGLM6marmoPD
-    fmribase = {'G:\marmoset'};
+    fmribase = {'marmoset'};
     paths = {
         {'pd_org'}, ... % pd
         {'pdctrl_org2','pdctrl_org3','pdctrl_org4'} % cn
@@ -102,13 +102,12 @@ function saveContrastNii(tfmri, contnames, V2s, path, outname)
     info = niftiinfo(tfmri);
     info.ImageSize = info.ImageSize(1:3);
     info.PixelDimensions = info.PixelDimensions(1:3);
-    info.raw.dim(1) = 3;
-    info.raw.dim(5) = 1;
     info.Datatype = 'single';
     info.BitsPerPixel = 32;
     for j=1:length(contnames)
         fname = [path outname '_' contnames{j} '.nii'];
-        niftiwrite(V2s{j},fname,info,'Compressed',true);
+        V = adjustVolumeDir(V2s{j}, info);
+        niftiwrite(V,fname,info,'Compressed',true);
     end
 end
 
